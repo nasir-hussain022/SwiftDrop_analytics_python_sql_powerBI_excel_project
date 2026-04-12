@@ -1,0 +1,101 @@
+product_id,category,product_name,cogs,retail_price
+P1001,Apparel,Men's T-Shirt 1,1288.17,2824.36
+P1002,Home Decor,Ceramic Vase 2,403.97,853.31
+P1003,Personal Care,Face Wash 3,1071.03,1934.42
+P1004,Home Decor,Throw Blanket 4,1179.22,1471.5
+P1005,Home Decor,Throw Blanket 5,896.71,1237.96
+P1006,Home Decor,LED Strip Lights 6,720.96,1072.32
+P1007,Groceries,Almonds 1kg 7,686.6,1436.44
+P1008,Groceries,Green Tea 8,819.87,1480.2
+P1009,Home Decor,LED Strip Lights 9,603.38,1411.83
+P1010,Personal Care,Electric Toothbrush 10,1106.15,2101.41
+P1011,Apparel,Cotton Socks 11,233.66,369.31
+P1012,Apparel,Men's T-Shirt 12,612.54,1505.48
+P1013,Apparel,Running Shoes 13,1195.12,1716.7
+P1014,Apparel,Running Shoes 14,576.64,1091.96
+P1015,Apparel,Cotton Socks 15,529.52,958.19
+P1016,Apparel,Denim Jacket 16,921.98,2170.45
+P1017,Groceries,Coffee Beans 17,402.32,774.75
+P1018,Home Decor,Ceramic Vase 18,486.08,990.3
+P1019,Electronics,Bluetooth Speaker 19,822.56,1010.45
+P1020,Apparel,Yoga Pants 20,826.32,1223.77
+P1021,Electronics,Phone Charger 21,850.0,1054.88
+P1022,Home Decor,Wall Clock 22,1150.64,2554.47
+P1023,Personal Care,Electric Toothbrush 23,509.34,997.12
+P1024,Apparel,Denim Jacket 24,938.72,2289.71
+P1025,Personal Care,Sunscreen 25,1409.81,2709.79
+P1026,Groceries,Green Tea 26,835.94,1674.64
+P1027,Electronics,Smart Watch 27,1337.44,2432.98
+P1028,Personal Care,Hair Serum 28,571.64,1282.11
+P1029,Home Decor,Scented Candle 29,873.94,1280.81
+P1030,Electronics,Smart Watch 30,1419.41,2123.04
+P1031,Electronics,Phone Charger 31,1242.76,1756.25
+P1032,Groceries,Almonds 1kg 32,1052.61,1775.22
+P1033,Groceries,Coffee Beans 33,692.51,888.39
+P1034,Personal Care,Face Wash 34,58.0,69.76
+P1035,Apparel,Cotton Socks 35,81.05,149.19
+P1036,Personal Care,Moisturizer 36,936.86,2181.15
+P1037,Personal Care,Moisturizer 37,1231.87,3051.07
+P1038,Electronics,Bluetooth Speaker 38,482.36,1126.26
+P1039,Electronics,Wireless Earbuds 39,630.56,929.55
+P1040,Groceries,Green Tea 40,790.14,1604.32
+P1041,Groceries,Extra Virgin Olive Oil 41,394.25,948.81
+P1042,Personal Care,Moisturizer 42,1214.26,2504.12
+P1043,Personal Care,Electric Toothbrush 43,1117.32,2272.12
+P1044,Groceries,Extra Virgin Olive Oil 44,801.45,985.9
+P1045,Personal Care,Electric Toothbrush 45,473.09,781.54
+P1046,Groceries,Almonds 1kg 46,647.98,1306.79
+P1047,Apparel,Cotton Socks 47,396.66,719.14
+P1048,Apparel,Denim Jacket 48,1238.07,2303.33
+P1049,Groceries,Coffee Beans 49,1131.79,1450.74
+P1050,Personal Care,Electric Toothbrush 50,1444.71,2580.7
+P1051,Electronics,Bluetooth Speaker 51,1311.54,2381.87
+P1052,Apparel,Yoga Pants 52,494.54,873.7
+P1053,Electronics,Bluetooth Speaker 53,423.63,874.5
+P1054,Electronics,Phone Charger 54,198.84,259.51
+P1055,Personal Care,Sunscreen 55,504.07,721.06
+P1056,Apparel,Cotton Socks 56,473.11,715.76
+P1057,Apparel,Men's T-Shirt 57,444.9,723.74
+P1058,Home Decor,Scented Candle 58,897.85,2117.06
+P1059,Apparel,Yoga Pants 59,1219.03,2169.84
+P1060,Groceries,Almonds 1kg 60,980.88,1347.68
+P1061,Groceries,Almonds 1kg 61,1459.45,2412.55
+P1062,Personal Care,Hair Serum 62,643.78,1202.01
+P1063,Personal Care,Sunscreen 63,1284.8,2908.66
+P1064,Groceries,Green Tea 64,175.81,389.75
+P1065,Groceries,Almonds 1kg 65,598.9,855.48
+P1066,Home Decor,Wall Clock 66,1009.69,1629.82
+P1067,Home Decor,Scented Candle 67,1407.8,2345.44
+P1068,Electronics,Wireless Earbuds 68,1486.37,2988.49
+P1069,Apparel,Men's T-Shirt 69,292.56,728.44
+P1070,Home Decor,Scented Candle 70,1115.88,1395.31
+P1071,Personal Care,Sunscreen 71,83.47,183.44
+P1072,Groceries,Coffee Beans 72,1347.99,1983.55
+P1073,Home Decor,Throw Blanket 73,1321.13,3073.71
+P1074,Electronics,Power Bank 74,606.89,1426.8
+P1075,Groceries,Green Tea 75,534.67,840.92
+P1076,Personal Care,Moisturizer 76,622.1,1436.9
+P1077,Home Decor,Throw Blanket 77,693.48,958.23
+P1078,Personal Care,Electric Toothbrush 78,1363.42,3181.32
+P1079,Personal Care,Face Wash 79,952.07,2178.42
+P1080,Groceries,Coffee Beans 80,1236.78,3004.5
+P1081,Home Decor,Throw Blanket 81,1354.88,3051.93
+P1082,Groceries,Coffee Beans 82,220.15,287.0
+P1083,Electronics,Phone Charger 83,1303.1,2572.05
+P1084,Personal Care,Hair Serum 84,1322.21,2233.94
+P1085,Electronics,Bluetooth Speaker 85,1190.17,1687.77
+P1086,Personal Care,Sunscreen 86,548.88,1092.68
+P1087,Home Decor,Scented Candle 87,343.49,793.92
+P1088,Apparel,Running Shoes 88,911.16,1636.04
+P1089,Home Decor,LED Strip Lights 89,464.6,609.25
+P1090,Apparel,Yoga Pants 90,1059.08,1418.63
+P1091,Home Decor,LED Strip Lights 91,1334.4,3328.42
+P1092,Home Decor,LED Strip Lights 92,338.98,821.17
+P1093,Personal Care,Electric Toothbrush 93,181.03,432.66
+P1094,Personal Care,Moisturizer 94,604.37,939.14
+P1095,Groceries,Organic Honey 95,88.51,200.93
+P1096,Electronics,Smart Watch 96,336.41,597.33
+P1097,Apparel,Denim Jacket 97,1325.75,1794.1
+P1098,Apparel,Cotton Socks 98,575.17,976.53
+P1099,Home Decor,Throw Blanket 99,1320.72,3025.99
+P1100,Electronics,Smart Watch 100,1014.04,1675.07
