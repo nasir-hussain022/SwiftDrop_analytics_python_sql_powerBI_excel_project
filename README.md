@@ -604,3 +604,6 @@ ORDER BY value_density DESC , weight ASC;
 **Nasir Hussain**
 * Data Analyst
 * [GitHub Profile](https://github.com/nasir-hussain022)
+- **Instagram**: [Follow me on instagram for daily tips](https://www.instagram.com/bca_wale022/)
+- **LinkedIn**: [Connect with me on linkedIn](https://www.linkedin.com/in/nasir-hussain022)
+- **Contact**: [Send me an email](mailto:nasirhussainnk172@gmail.com)
