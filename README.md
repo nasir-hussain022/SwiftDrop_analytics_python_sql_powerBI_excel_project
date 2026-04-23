@@ -387,7 +387,7 @@ SELECT
     warehouse_id,
     TIMESTAMPDIFF(MINUTE,
         order_date,
-        dispatch_time) / 60 AS dispatch_time
+        delivery_time) / 60 AS dispatch_time
 FROM
     orders o
         INNER JOIN
@@ -395,9 +395,10 @@ FROM
 WHERE
     (TIMESTAMPDIFF(MINUTE,
         order_date,
-        dispatch_time) / 60) > 4;
+        delivery_time) / 60) > 4;
         
 ```
+<img width="205" height="122" alt="image" src="https://github.com/user-attachments/assets/d2d9ac3f-e434-493c-bb13-442de813986a" />
 
 **12. Shipping Cost as % of Revenue. Are we spending too much on delivery relative to the product price?**
 ```sql
