@@ -202,6 +202,7 @@ FROM
         INNER JOIN
     orders o ON o.product_id = p.product_id;
 ```
+<img width="136" height="51" alt="image" src="https://github.com/user-attachments/assets/39b9fdd8-2af7-4562-a95c-3145b9f686ba" />
 
 **2. Total Net Revenue by each category.**
 ```sql
@@ -213,6 +214,7 @@ FROM
     orders o ON o.product_id = p.product_id
     group by category;
 ```
+<img width="215" height="112" alt="image" src="https://github.com/user-attachments/assets/99c66855-6674-4362-9134-36e402cbaf8f" />
 
 **3. Absolute Gross Profit (profit after substracting the cost of goods and shipping cost).**
 ```sql
@@ -229,6 +231,7 @@ FROM
 WHERE
     order_status = 'Delivered';
 ```
+<img width="127" height="50" alt="image" src="https://github.com/user-attachments/assets/8a24415a-e77b-4b93-a6bc-fa91cac90028" />
 
 **4. Profit Margin % per Category.**
 ```sql
@@ -246,6 +249,7 @@ WHERE
     order_status = 'Delivered'
 GROUP BY 1;
 ```
+<img width="234" height="121" alt="image" src="https://github.com/user-attachments/assets/afaaca6c-0ce2-4139-91ee-4631cd91f40f" />
 
 **5. Revenue Lost to Cancellations.**
 ```sql
@@ -261,6 +265,7 @@ FROM
 WHERE
     order_status = 'Cancelled';
 ```
+<img width="156" height="49" alt="image" src="https://github.com/user-attachments/assets/373e100a-b8b9-48ea-9252-848bd4643d30" />
 
 **6. Which product sold the most in each category.**
 ```sql
@@ -286,6 +291,7 @@ from (
 where rn = 1
 order by product_sold desc;
 ```
+<img width="314" height="120" alt="image" src="https://github.com/user-attachments/assets/fb295c4b-7038-4378-8167-781a50790387" />
 
 **7. In which month product sold the most?**
 ```sql
@@ -311,6 +317,8 @@ from (
 where rn = 1
 order by product_sold desc;
 ```
+<img width="391" height="122" alt="image" src="https://github.com/user-attachments/assets/4c106dd0-1dd9-42d0-a111-b9bc99ba2069" />
+
 **8.Checks if orders with >15% discounts are resulting in a net loss after shipping.**
 ```sql
 SELECT 
@@ -326,6 +334,7 @@ WHERE
     discount_applied > 0.15
         AND order_status = "Delivered";
 ```
+<img width="143" height="49" alt="image" src="https://github.com/user-attachments/assets/76e0bcde-a5a7-4d15-a022-59608e0bcafa" />
 
 **9. Delivery Time (Order to Door).**
 ```sql
@@ -348,6 +357,7 @@ FROM
 WHERE
     YEAR(d.delivery_time) > 0;
 ```
+<img width="388" height="124" alt="image" src="https://github.com/user-attachments/assets/0fe33244-31b0-4e12-a37c-e4fc6c3fd871" />
 
 **10. Which warehouse is the fastest at getting packages out to the riders?**
 ```sql
@@ -368,6 +378,7 @@ FROM
     deliveries d ON d.order_id = o.order_id
 ORDER BY warehouse_get_packages ASC;
 ```
+<img width="262" height="89" alt="image" src="https://github.com/user-attachments/assets/a1d2639c-0c0c-4734-8e27-25e3fd973eb8" />
 
 **11. Late Delivery Detection. Lists orders that took longer than 4 hours (the threshold for "Quick Commerce").**
 ```sql
@@ -403,6 +414,7 @@ FROM
 GROUP BY category
 ORDER BY ship_cost_ratio ASC;
 ```
+<img width="211" height="117" alt="image" src="https://github.com/user-attachments/assets/c7430df8-6072-405b-a3ad-9ccac09d48aa" />
 
 **13. Peak Hour Traffic.**
 ```sql
@@ -414,6 +426,7 @@ FROM
 GROUP BY 1
 ORDER BY total_order DESC;
 ```
+<img width="175" height="105" alt="image" src="https://github.com/user-attachments/assets/9c807e67-01e3-41e3-a3a7-cc1a14d5b454" />
 
 **14. Top 5 Most Returned Products.**
 ```sql
@@ -429,6 +442,7 @@ GROUP BY 1
 ORDER BY products_returned DESC
 LIMIT 5;
 ```
+<img width="252" height="109" alt="image" src="https://github.com/user-attachments/assets/2425fe12-bede-49a1-9345-5799cb74d7de" />
 
 **15. Average Order Value (AOV) by Customer.**
 ```sql
@@ -452,6 +466,8 @@ FROM
 GROUP BY 1
 ORDER BY AOV DESC;
 ```
+<img width="170" height="92" alt="image" src="https://github.com/user-attachments/assets/218ac19c-7d0f-48bb-b9f9-478af762b0f7" />
+
 
 **16. Most Profitable Individual Products.**
 ```sql
@@ -472,6 +488,7 @@ ORDER BY total_revenue DESC
 LIMIT 1;
 
 ```
+<img width="198" height="46" alt="image" src="https://github.com/user-attachments/assets/98d0cddb-0c37-4c39-b349-4f427fd7ed85" />
 
 **17. Category Volume vs. Value. Does the category with the most orders also bring in the most money?**
 ```sql
@@ -486,6 +503,7 @@ FROM
 GROUP BY 1
 ORDER BY category DESC , order_count DESC;
 ```
+<img width="260" height="105" alt="image" src="https://github.com/user-attachments/assets/d4a4a912-cda4-44c0-b773-ecb2fd18fcce" />
 
 **18. Weight vs Shipping Cost Correlation. Does the weight correlate with higher shipping fees?**
 ```sql
@@ -502,6 +520,7 @@ WHERE
     category = 'Groceries'
 GROUP BY 1;
 ```
+<img width="212" height="90" alt="image" src="https://github.com/user-attachments/assets/d2cf1ae8-26e8-47d3-976f-4ef2bc82e92b" />
 
 **19. Failed Delivery Rate per Warehouse.**
 ```sql
@@ -517,6 +536,7 @@ FROM
 GROUP BY 1
 ORDER BY not_delivered DESC;  
 ```
+<img width="189" height="108" alt="image" src="https://github.com/user-attachments/assets/85ab318b-d153-4627-a6f9-18f6922e169c" />
 
 **20. Lists products where the base profit margin is less than 20%.**
 ```sql
@@ -530,6 +550,7 @@ FROM
 WHERE
     ((retail_price - cogs) / retail_price) < 0.20;
 ```
+<img width="230" height="106" alt="image" src="https://github.com/user-attachments/assets/bc14b7d0-45d4-4cb6-a380-2bd6f9c88350" />
 
 **21. Daily Revenue Trend. Tracks if the business is growing day-over-day.**
 ```sql
@@ -545,6 +566,7 @@ WHERE
 GROUP BY days
 ORDER BY days ASC;
 ```
+<img width="170" height="125" alt="image" src="https://github.com/user-attachments/assets/8f9e9536-c305-4aa0-a517-eec01ea2febf" />
 
 **22. Discounts vs. Returns. Does offering higher discounts lead to higher return rates?**
 ```sql
@@ -557,6 +579,7 @@ WHERE
 GROUP BY discount_applied
 ORDER BY discount_applied DESC;
 ```
+<img width="214" height="110" alt="image" src="https://github.com/user-attachments/assets/94d3fae7-f695-4007-b4d9-5533c77a24b0" />
 
 **23. Value Density Analysis. Identifies high-value, low-weight items (the most profitable items to ship).**
 ```sql
@@ -571,6 +594,11 @@ WHERE
         OR measure_unit = 'Kg'
 ORDER BY value_density DESC , weight ASC; 
 ```
+<img width="251" height="124" alt="image" src="https://github.com/user-attachments/assets/a8360470-cea3-4975-b94f-0c787c1bfda8" />
+
+
+---
+
 ## 👤 Author
 **Nasir Hussain**
 * Data Analyst
